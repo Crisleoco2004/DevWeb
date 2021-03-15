@@ -294,7 +294,7 @@ main {
     border-radius: 3rem;
     padding: 1rem;
     position: absolute;
-    margin-left: 3rem;
+    margin-left: 8rem;
     max-width: 60vw;
 
 }
@@ -312,7 +312,7 @@ main {
     height: auto;
     display: inline-block;
     position: absolute;
-    margin-left: 3rem;
+    margin-left: 8rem;
     margin-top: 12rem;
     margin-right: 10vw; 
     column-count: 4;
@@ -358,7 +358,7 @@ main {
 .episodios li a .fig-anime figcaption .name {
     text-align: left;
     display: inline-block;
-    max-width: 60%;
+    max-width: 50%;
     min-width: 10%;
     height: auto;
 
