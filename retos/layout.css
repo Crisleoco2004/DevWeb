@@ -179,8 +179,8 @@ header {
 }
 
 main {
-    margin-left: 10vw;
-    margin-right: 10vw;
+    margin-left: 6vw;
+    margin-right: 5vw;
 }
 
 .anuncios {
@@ -259,7 +259,7 @@ main {
 .animes li a p {
 
     margin-left: 1rem;
-    padding-left: 2rem;
+    padding-left: 1rem;
 }
 
 .animes li a span{
@@ -299,32 +299,32 @@ main {
 
 }
 
-.episodios li a .fig-kny:hover{
+.episodios li a .fig-anime:hover{
     box-shadow: 1px 1px 1px black;
 }
 
 
 .episodios {
-    background-color:#56cfe1;
-    display: inline-block;
-    padding: 1rem;
-    border-radius: 3rem;
-    margin-top: 2rem;
-    max-width: 60vw;
-    min-width: 60vw;
+
+    padding: 5rem;
+    max-width: 67vw;
+    min-width: 67vw;
     height: auto;
+    display: inline-block;
     position: absolute;
     margin-left: 3rem;
     margin-top: 12rem;
-    margin-right: 10vw;
+    margin-right: 10vw; 
+    column-count: 4;
+    background-color:#56cfe1;
+    border-radius: 3rem;
+    vertical-align: middle;
+    
 }
 
-
 .episodios li {
-    display: inline-block;
+    display:inline-block;
     list-style: none;
-    display: inline-block;
-
 }
 
 .episodios li a{
@@ -332,51 +332,69 @@ main {
     display: inline-block;
 }
 
-.episodios li a .fig-kny{
+.episodios li a .fig-anime{
     display: inline-block;
     max-width: 15vw;
     min-width: 15vw;
     height: auto;
+    padding: 1rem;
+    overflow: hidden;
+    margin-bottom: 2rem;
     background-color: #5e60ce;
     border-radius: 3rem;
-    padding: 1rem;
-    padding-right: 1rem;
 }
 
-.episodios li a .fig-kny figcaption{
-    display: inline-block;
+.episodios li a .fig-anime figcaption{
+    display:inline-block;
     max-width: 13vw;
     min-width: 13vw;
     height: auto;
     padding: 1rem;
     padding-right: 1rem;
     color:white;
+
 }
 
-.episodios li a .fig-kny .MeGusta{
-    max-width: 1vw;
-    min-width: 1vw;
+.episodios li a .fig-anime figcaption .name {
+    text-align: left;
+    display: inline-block;
+    max-width: 60%;
+    min-width: 10%;
+    height: auto;
+
+}
+
+.episodios li a .fig-anime figcaption .views {
+    text-align: right;
+    max-width: 3vw;
+    min-width: 3vw;
     height: auto;
     float: right;
-
 }
 
-.episodios li a .fig-kny .num {
-    display: inline-block;
-    position: absolute;
-    margin-left: 4rem;
-    font-size: 1.2rem;
+.episodios li a .fig-anime .MeGusta{
+    max-width: 30%;
+    min-width: 30%;
+    height: auto;
+    float: right;
 }
 
+.episodios li a .fig-anime .num {
+    position: relative;
+    right: 20%;
+    float: left;
+    overflow: hidden;
+    
+}
 
-.episodios li a .fig-kny .img-kny {
+.episodios li a .fig-anime .img-anime {
     width: 100%;
     height: auto;
     border-radius: 3rem;
 }
 
 @supports(object-fit: cover){
-    .episodios li a .fig-kny .img-kny{
+    .episodios li a .fig-anime .img-anime{
         height: 100%;
         object-fit: cover;
         object-position: center center;
