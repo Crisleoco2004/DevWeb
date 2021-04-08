@@ -1,0 +1,404 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Segoe UI";
+    color: #6930c3;
+}
+
+header {
+    min-height: 1vh;
+    max-width: 99vw;
+}
+
+.menu {
+    list-style: none;
+    background: linear-gradient(to left, #80ffdb, #7400b8);
+    text-align: center;
+    width: 99vw;
+    height: 12vh;
+    margin-bottom: 1rem;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu li img {
+    max-width: 3rem;
+    height: auto;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: black;
+}
+
+.menu li a .menu-home{
+    display: inline-block;
+    position: absolute;
+    bottom: 92.5vh;
+    left: calc((100vw)*(0.0833*9));
+}
+.menu li a .menu-follow{
+    display: inline-block;
+    position: absolute;
+    bottom: 92.5vh;
+    left: calc((100vw)*(0.0833*10));
+}
+
+.menu li .menu-search {
+    display: inline-block;
+    font-size: 1.8;
+    border-radius: 3rem;
+    max-width: 40vw;
+    min-width: 40vw;
+    padding: 1rem;
+    position: absolute;
+    bottom: 92vh;
+    left: calc((100vw)*(0.0833*3.5));
+    outline: none;
+    border: 1px solid silver;
+
+}
+
+
+.menu li a .menu-not{
+    display: inline-block;
+    position: absolute;
+    bottom: 92.5vh;
+    left: calc((100vw)*(0.0833*11));
+}
+
+.menu li a .menu-home:hover{
+    box-shadow: 2px 2px 2px  black;
+    border-radius: 5rem;
+}
+.menu li a .menu-follow:hover{
+    box-shadow: 2px 2px 2px  black;
+    border-radius: 5rem;
+}
+
+.menu li a .menu-not:hover{
+    box-shadow: 2px 2px 2px  black;
+    border-radius: 5rem;
+}
+.menu li a .menu-logo:hover{
+    background: linear-gradient( to left, #7400b8, white);
+    box-shadow: 5px 5px 5px black;
+    border-radius: 5rem;
+    border: 1px solid black;
+}
+
+.menu li a .menu-logo {
+    display: inline-block;
+    max-width: 8rem;
+    height: auto;
+    position: absolute; 
+    top: 1rem;
+    margin: 1rem;
+    background: linear-gradient( to right, #80ffdb, white);
+    border-radius: 5rem;
+    left: calc(100vw*0.05);
+}
+
+.main-head .recommend {
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-bottom: 3rem;
+}
+
+.main-head .recommend li{
+    display: inline-block;
+}
+
+.main-head .recommend li a {
+    display: inline-block;
+    text-decoration: none;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin: 0.3rem;
+    color: white;
+    border-radius: 2rem;
+    text-align: center;
+    
+
+}
+
+.main-head .recommend li a:hover {
+    box-shadow: 1px 1px 1px black;
+
+}
+
+.main-head .recommend li .one
+{
+    background-color: #6930c3;
+}
+.main-head .recommend li .two
+{
+    background-color: #5e60ce;
+}
+.main-head .recommend li .three
+{
+    background-color: #5390d9;
+}
+.main-head .recommend li .four
+{
+    background-color: #4ea8de;
+}
+.main-head .recommend li .five
+{
+    background-color: #48bfe3;
+}
+.main-head .recommend li .six
+{
+    background-color: #56cfe1;
+}
+.main-head .recommend li .seven
+{
+    background-color: #64dfdf;
+}
+.main-head .recommend li .eight
+{
+    background-color: #72efdd;
+}
+.main-head .recommend li .nine
+{
+    background-color: #80ffdb;
+}
+
+main {
+    margin-left: 6vw;
+    margin-right: 5vw;
+}
+
+.anuncios {
+    background-color:#56cfe1;
+    display: inline-block;
+    padding: 1rem;
+    padding-top: 0;
+    padding-bottom: 0;
+    border-radius: 3rem;
+
+}
+
+.anuncios li {
+    list-style: none;
+    margin-top: 2rem; 
+    margin-bottom: 2rem;
+}
+
+.anuncios li a {
+    display: inline-block;
+    text-decoration: none;
+    color:white;
+    background-color: #5e60ce;
+    min-width: 15vw;
+    max-width: 15vw;
+    min-height: 20vh;
+    border-radius: 2rem;
+    overflow: hidden;
+    padding: 1rem;
+}
+
+.anuncios li a strong {
+    display:block;
+    margin:auto;
+    text-align: center;
+    padding: 0.2rem;
+}
+
+.anuncios li a:hover{
+    box-shadow: 1px 1px 1px black;
+    background: linear-gradient( to right, #ffc6ff, #5e60ce);
+}
+
+.animes li a:hover{
+    box-shadow: 1px 1px 1px gray;
+}
+
+.animes {
+    background-color:#56cfe1;
+    display: inline-block;
+    padding: 1rem;
+    border-radius: 3rem;
+    margin-top: 2rem;
+
+}
+
+.animes li {
+    list-style:none;
+}
+
+.animes li a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #e5e5e5;
+    max-width: 15vw;
+    min-width: 15vw;
+    min-height: 4vh;
+    text-align: left;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    border-radius: 2rem;
+    padding-bottom: 5px;
+    overflow:hidden;
+}
+
+.animes li a p {
+
+    margin-left: 1rem;
+    padding-left: 1rem;
+}
+
+.animes li a span{
+    font-size: 0.8rem;
+    color: white;
+    background-color:#6930c3;
+    border-radius: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-left: 1rem;
+}
+
+.animes li a img {
+    display: inline-block;
+    max-width: 15px;
+    height:auto;
+    position: relative;
+    left: 1rem;
+    top: 0.5rem;
+}
+
+.animes li a h2 {
+    margin-left: 1rem;
+}
+
+.epi-title {
+    display: inline-block;
+    background-color: #5e60ce;
+    color: white;
+    border-radius: 3rem;
+    padding: 1rem;
+    position: absolute;
+    margin-left: 8rem;
+    max-width: 60vw;
+
+}
+
+.episodios li a .fig-anime:hover{
+    box-shadow: 1px 1px 1px black;
+}
+
+
+.episodios {
+
+    padding: 5rem;
+    max-width: 67vw;
+    min-width: 67vw;
+    height: auto;
+    display: inline-block;
+    position: absolute;
+    margin-left: 8rem;
+    margin-top: 12rem;
+    margin-right: 10vw; 
+    column-count: 4;
+    background-color:#56cfe1;
+    border-radius: 3rem;
+    vertical-align: middle;
+    
+}
+
+.episodios li {
+    display:inline-block;
+    list-style: none;
+}
+
+.episodios li a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+.episodios li a .fig-anime{
+    display: inline-block;
+    max-width: 15vw;
+    min-width: 15vw;
+    height: auto;
+    padding: 1rem;
+    overflow: hidden;
+    margin-bottom: 2rem;
+    background-color: #5e60ce;
+    border-radius: 3rem;
+}
+
+.episodios li a .fig-anime figcaption{
+    display:inline-block;
+    max-width: 13vw;
+    min-width: 13vw;
+    height: auto;
+    padding: 1rem;
+    padding-right: 1rem;
+    color:white;
+
+}
+
+.episodios li a .fig-anime figcaption .name {
+    text-align: left;
+    display: inline-block;
+    max-width: 50%;
+    min-width: 10%;
+    height: auto;
+
+}
+
+.episodios li a .fig-anime figcaption .views {
+    text-align: right;
+    max-width: 3vw;
+    min-width: 3vw;
+    height: auto;
+    float: right;
+}
+
+.episodios li a .fig-anime .MeGusta{
+    max-width: 30%;
+    min-width: 30%;
+    height: auto;
+    float: right;
+}
+
+.episodios li a .fig-anime .num {
+    position: relative;
+    right: 20%;
+    float: left;
+    overflow: hidden;
+    
+}
+
+.episodios li a .fig-anime .img-anime {
+    width: 100%;
+    height: auto;
+    border-radius: 3rem;
+}
+
+@supports(object-fit: cover){
+    .episodios li a .fig-anime .img-anime{
+        height: 100%;
+        object-fit: cover;
+        object-position: center center;
+    }
+}
+
+

@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+}
+
+.hola {
+    min-width: 50vw;
+    min-height: 50vh;
+    background-color: yellowgreen;
+    padding-top: 50px;
+    padding-bottom: 50px
+}
+.hola-2 {
+    width: 50vw;
+    min-height: 50vh;
+    background-color: blue;
+    padding-top: 50px;
+    padding-bottom: 50px
+}
+
+
+.main-right {
+    width: 80%;
+    min-width: 320px;
+    max-width: 500px;
+    min-height: 500px;
+    background-color:red;
+    margin: 0 auto;
+}
+.main-left {
+    width: 80%;
+    min-width: 320px;
+    max-width: 500px;
+    min-height: 500px;
+    background-color:red;
+    margin: 0 auto;
+}
