@@ -1,0 +1,435 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-size: 1.4rem;
+    font-family: "Segoe UI";
+    color: #6930c3;
+}
+
+header {
+    width: 100%;
+}
+
+.menu {
+    width: 100%;
+    height: 15%;
+    min-height: 90px;
+    max-height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 1rem;
+    list-style: none;
+    background: linear-gradient(to left, #80ffdb, #7400b8);
+    text-align: center;
+}
+
+.menu li .menu-logo {
+    width: 50px;
+}
+
+.menu li img {
+    width: 25px;
+    height: auto;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu li .menu-search {
+    font-size: 1.8;
+    border-radius: 3rem;
+    max-width: 40vw;
+    min-width: 40vw;
+    padding: 1rem;
+    outline: none;
+    border: 1px solid silver;
+}
+
+.header-submenu {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu li a .menu-home:hover {
+    cursor: pointer;
+}
+
+.menu li a .menu-follow:hover {
+    cursor: pointer;
+}
+
+.menu li a .menu-not:hover {
+    cursor: pointer;
+}
+
+.menu li a .menu-logo {
+    background: linear-gradient(to right, #80ffdb, white);
+    border-radius: 5rem;
+}
+
+.menu li a .menu-logo:hover {
+    background: linear-gradient(to left, #7400b8, white);
+    border: 1px solid rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+
+.main-head .recommend {
+    width: 100%;
+    max-width: 1350px;
+    margin: 0 auto;
+    padding: 0 1rem 1rem;
+}
+
+.main-head .recommend li {
+    display: inline-block;
+}
+
+.main-head .recommend li a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 0.6rem 1rem;
+    margin: 0.3rem;
+    color: white;
+    border-radius: 2rem;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.main-head .recommend li a:hover {
+    box-shadow: 1px 1px 1px rgb(105, 105, 105);
+
+}
+
+.main-head .recommend li .one {
+    background-color: #6930c3;
+}
+
+.main-head .recommend li .two {
+    background-color: #5e60ce;
+}
+
+.main-head .recommend li .three {
+    background-color: #5390d9;
+}
+
+.main-head .recommend li .four {
+    background-color: #4ea8de;
+}
+
+.main-head .recommend li .five {
+    background-color: #48bfe3;
+}
+
+.main-head .recommend li .six {
+    background-color: #56cfe1;
+}
+
+.main-head .recommend li .seven {
+    background-color: #64dfdf;
+}
+
+
+main {
+    width: 100%;
+    max-width: 1350px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.main-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.anuncios {
+    width: 100%;
+    background-color: #56cfe1;
+    padding: 1rem;
+    border-radius: 3rem;
+    text-align: center;
+}
+
+.anuncios li {
+    padding: 1rem;
+    list-style: none;
+}
+
+.anuncios li a {
+    width: 100%;
+    min-height: 100px;
+    display: block;
+    text-decoration: none;
+    color: white;
+    background-color: #5e60ce;
+    border-radius: 2rem;
+    overflow: hidden;
+    padding: 1rem;
+}
+
+.anuncios li a:hover {
+    box-shadow: 1px 1px 1px black;
+}
+
+.animes li a:hover {
+    box-shadow: 1px 1px 1px gray;
+}
+
+.animes {
+    width: 100%;
+    background-color: #56cfe1;
+    padding: 1rem;
+    border-radius: 3rem;
+}
+
+.animes ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.animes li {
+    width: 100%;
+    list-style: none;
+}
+
+.animes li a {
+    width: 100%;
+    display: inline-block;
+    text-decoration: none;
+    background-color: #e5e5e5;
+    text-align: left;
+    margin: 1px 0;
+    border-radius: 2rem;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.animes li a p {
+
+    margin-left: 1rem;
+    padding-left: 1rem;
+}
+
+.animes li a span {
+    font-size: 0.8rem;
+    color: white;
+    background-color: #6930c3;
+    border-radius: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-left: 1rem;
+}
+
+.animes li a img {
+    display: inline-block;
+    max-width: 15px;
+    height: auto;
+    left: 1rem;
+    top: 0.5rem;
+}
+
+.animes li a h2 {
+    margin-left: 1rem;
+}
+
+.epi-title {
+    width: 100%;
+    max-width: 450px;
+    border-radius: 3rem;
+    padding: 1rem 2rem;
+    text-align: left;
+    color: white;
+    background-color: #5e60ce;
+}
+
+.episodios li a .fig-anime:hover {
+    box-shadow: 1px 1px 1px black;
+}
+
+
+.episodios {
+    height: auto;
+    width: 100%;
+    padding: 1rem;
+    background-color: #56cfe1;
+    border-radius: 3rem;
+    vertical-align: middle;
+}
+
+.episodios ul {
+    column-count: 1;
+}
+
+.episodios li {
+    display: grid;
+    place-items: center;
+    list-style: none;
+}
+
+.episodios li a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.episodios li a .fig-anime {
+    display: inline-block;
+    width: auto;
+    max-width: 300px;
+    height: auto;
+    padding: 1rem;
+    overflow: hidden;
+    margin: 1rem 0;
+    background-color: #5e60ce;
+    border-radius: 3rem;
+}
+
+.episodios li a .fig-anime figcaption {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    padding-right: 1rem;
+    color: white;
+}
+
+.episodios li a .fig-anime figcaption .name {
+    text-align: left;
+    display: inline-block;
+    max-width: 50%;
+    min-width: 10%;
+    height: auto;
+    order: 0;
+}
+
+.episodios li a .fig-anime figcaption .views {
+    display: flex;
+    gap: 1rem;
+    text-align: right;
+    height: auto;
+    order: 1;
+}
+
+.episodios li a .fig-anime .MeGusta {
+    width: 20px;
+    height: auto;
+    order: 1;
+}
+
+.episodios li a .fig-anime .num {
+    right: 20%;
+    overflow: hidden;
+    order: 0;
+}
+
+.episodios li a .fig-anime .img-anime {
+    width: 100%;
+    height: auto;
+    border-radius: 3rem;
+}
+
+@supports(object-fit: cover) {
+    .episodios li a .fig-anime .img-anime {
+        height: 100%;
+        object-fit: cover;
+        object-position: center center;
+    }
+}
+
+@media screen and (min-width: 450px) {
+    body {
+        font-size: 1.6rem;
+    }
+
+    .main-head .recommend li a {
+        font-size: 1.4rem;
+    }
+
+    .main-container {
+        flex-direction: row;
+    }
+
+    .anuncios li a {
+        min-height: 200px;
+    }
+
+    .episodios ul {
+        column-count: 2;
+    }
+}
+
+@media screen and (min-width: 700px) {
+
+    .main-head .recommend li a {
+        font-size: 1.6rem;
+    }
+
+    .episodios ul {
+        column-count: 3;
+    }
+}
+
+@media screen and (min-width: 950px) {
+
+    .menu li .menu-logo {
+        width: 60px;
+    }
+
+    .header-submenu {
+        gap: 2rem;
+    }
+
+    main {
+        flex-direction: row;
+    }
+
+    .main-container {
+        align-self: flex-start;
+        width: 25%;
+        flex-direction: column;
+    }
+
+    .episodios {
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .main-container {
+        width: 20%;
+    }
+
+    .episodios {
+        width: 75%;
+    }
+
+    .episodios ul {
+        column-count: 4;
+    }
+}

@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: courier;
+}
+
+.container {
+    max-width: 500px;
+    min-height: auto;
+    background: #CCC;
+    padding: 20px;
+    margin: 100px auto;
+    border-radius: 10px;
+    border: 2px solid
+}
+
+.container img {
+    border-radius: 10px;
+}
+
+.container .eren-img {
+    filter: blur(20px);
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+}
+
+.container .eren-img2 {
+
+    position: absolute;
+    border: 1px solid;
+    width: auto;
+    max-height: 400px;
+    display: flex;
+    bottom: 380px;
+    margin-left: 90px;
+}
+
+p {
+    position: absolute;
+    bottom: 45px;
+    color: white;
+    max-width: 455px;
+    padding: 10px;
+    margin-left: 5px;
+    font-size: 14px;
+}
+
+.spoiler {
+    text-align: center;
+    background-color: aqua;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 5px;
+    border: 2px solid
+}
+
+.main-title {
+    position: relative;
+    font-family: 'Segoe UI';
+    text-align: center;
+    background-color: aqua;
+    border-radius: 50px;
+    padding: 5px;
+    margin-bottom: 20px;
+    bottom: 45px;
+    border: 2px solid
+}
